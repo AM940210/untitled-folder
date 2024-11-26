@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calender-container {
+    min-width: 390px;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+/* ============ header =========== */
+.header {
+    font-size: 36px;
+    margin: 50px auto 20px auto;
+    text-align: center;
+    /* background-color: lightblue; */
+}
+
+/* ============ Sidebar ============= */
+.sidebar {
+    position: absolute;
+    width: 100%;
+    margin: 105px auto 20px auto;
+    padding: 0 20px;
+    /* background-color: lightblue; */
+}
+
+.digital-clock {
+    /* background-color: lightcoral; */
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.clock-header {
+    display: flex;
+    border-bottom: 1px solid #eee;
+}
+
+.clock-p {
+    margin: 10px 10px 5px 20px;
+}
+
+.clock-icon {
+    margin-top: 10px;
+}
+
+.clock-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    font-size: 38px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.clock-pm {
+    font-size: 38px;
+    margin-top: 10px;
+}
+
+/* =========== main =========== */
+.main {
+    position: absolute;
+    top: 230px;
+    width: 100%;
+    padding: 0 20px;
+    /* background-color: lightcoral; */
+}
+
+.month {
+    width: 100%;
+    height: 80px;
+    padding: 12px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background-color: lightblue; */
+}
+
+.month li {
+    list-style-type: none;
+    font-size: 22px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 15px;
+    cursor: pointer;
+    /* font-size: 22px; */
+}
+
+.month .next {
+    float: right;
+    padding-top: 15px;
+    cursor: pointer;
+    /* font-size: 22px; */
+}
+
+/* ============ Weekdays ============ */
+.weekdays ul {
+    /* background-color: lightcyan; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.weekdays li {
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.days ul {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    /* background-color: lightgray; */
+}
+
+.days li {
+    list-style-type: none;
+    padding: 15px 17px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* ============ todo info ============ */
+.todays-todo {
+    /* background-color: lightblue; */
+    margin: 10px 15px;
+}
+
+.todo-one, .todo-two {
+    margin-bottom: 10px;
+}
+
+.todo-info {
+    display: flex;
+    font-size: 22px;
+    position: relative;
+}
+
+.todo-icons {
+    position: relative;
+    position: absolute;
+    right: 0;
+}
+
+.pencil, .delete-bin {
+    cursor: pointer;
+}
+
+/* ============ See more ========= */
+.see-more {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
